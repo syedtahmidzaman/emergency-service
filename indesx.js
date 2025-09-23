@@ -798,3 +798,18 @@ setInterval(() => {
 
 
 
+// favorite button 
+
+const hearts = document.querySelectorAll(".hart-add");
+
+hearts.forEach(heart => {
+  heart.addEventListener("click", () => {
+
+    heart.classList.remove("fa-regular");
+    heart.classList.add("fa-solid", "text-red-500");
+    
+
+   
+    heart.style.pointerEvents = "none"; 
+  });
+});
