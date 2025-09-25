@@ -803,13 +803,41 @@ setInterval(() => {
 const hearts = document.querySelectorAll(".hart-add");
 
 hearts.forEach(heart => {
-  heart.addEventListener("click", () => {
+    heart.addEventListener("click", () => {
 
-    heart.classList.remove("fa-regular");
-    heart.classList.add("fa-solid", "text-red-500");
-    
+        heart.classList.remove("fa-regular");
+        heart.classList.add("fa-solid", "text-red-500");
 
-   
-    heart.style.pointerEvents = "none"; 
-  });
+
+
+        heart.style.pointerEvents = "none";
+    });
 });
+
+
+// call jabe 
+
+
+function makeCall(number) {
+    window.location.href = "tel:" + number;
+}
+
+
+
+
+// earn coin 
+// const heartIcon = document.querySelectorAll(".hart-add");
+
+// const coinElement = document.getElementById("available-coin");
+
+
+// let coin = parseInt(coinElement.innerText) || 0;
+
+
+// heartIcon.forEach(heart => {
+    // heart.addEventListener("click", () => {
+        // coin += 20;
+        // coinElement.innerText = coin;
+    // });
+// });
+
