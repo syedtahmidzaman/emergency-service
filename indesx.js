@@ -819,8 +819,9 @@ hearts.forEach(heart => {
 
 
 function makeCall(number) {
-    window.location.href = "tel:" + number;
+    window.location.href = `tel:${number}`;
 }
+
 
 
 
