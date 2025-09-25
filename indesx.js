@@ -819,7 +819,14 @@ hearts.forEach(heart => {
 
 
 function makeCall(number) {
-    window.location.href = `tel:${number}`;
+   if (coins >= 20) {
+       
+        window.location.href = `tel:${number}`;
+        console.log(`Call done! Remaining coins: ${coins}`);
+    } else {
+        console.log("No coins left! Call not allowed.");
+        
+    }
 }
 
 
@@ -846,9 +853,9 @@ emergencyBtn.addEventListener('click', () => {
 
 
 // heartIcon.forEach(heart => {
-    // heart.addEventListener("click", () => {
-        // coin += 20;
-        // coinElement.innerText = coin;
-    // });
+//     heart.addEventListener("click", () => {
+//         coin += 20;
+//         coinElement.innerText = coin;
+//     });
 // });
 
