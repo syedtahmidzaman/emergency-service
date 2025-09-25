@@ -823,6 +823,16 @@ function makeCall(number) {
 }
 
 
+// scroll
+
+// Button element select
+const emergencyBtn = document.getElementById('emergencyBtn');
+const emergencySection = document.getElementById('emergencySection');
+
+// Click event listener
+emergencyBtn.addEventListener('click', () => {
+  emergencySection.scrollIntoView({ behavior: 'smooth' });
+});
 
 
 

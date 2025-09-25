@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>   Emergency Service</title>
+    <!-- favicon -->
      <link rel="icon" type="image/png" href="assets/emergency.png" />
     <!-- daisy uui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
@@ -24,13 +25,18 @@
 
 <body>
     <!-- navbar-->
-    <section class="shadow-lg py-2 ">
-        <div class="sm:flex w-11/12   sm:justify-between items-center   max-w-7xl  mx-auto ">
+    <section class="shadow-lg py-2  ">
+        <div class="sm:flex w-11/12    sm:justify-between items-center   max-w-7xl  mx-auto ">
             <div class="flex justify-center items-center ">
                 <img class=" w-12 md: h-12" src="./assets/logo.png" alt>
                 <h1 class="text-[#006747] font-extrabold ml-3">Emergency
                     <br> Service
                 </h1>
+            </div>
+
+            <div class="  gap-4 hidden sm:flex">
+                <button id="home" class="btn font-bold border-none">Home</button>
+                <button id="emergencyBtn" class="btn font-bold border-none">Emergency Contract</button>
             </div>
 
             <div class="flex justify-center items-center gap-3   ">
@@ -99,7 +105,7 @@
     </div>
 
 
-    <section class="bg-[#e8f6e9] pb-8">
+    <section id="emergencySection" class="bg-[#e8f6e9] pb-8">
         <div class=" w-11/12 mx-auto ">
             <h2 class="text-2xl font-semibold mt-4 pt-4 text-center ">আমাদের সেবাসমূহ </h2>
             <!-- <h1 class="text-xl font-semibold text-center">Our Services</h1> -->
