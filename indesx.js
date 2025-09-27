@@ -41,15 +41,6 @@ const callBtn1 = document.getElementById("call-btn-1")
 callBtn1.addEventListener("click", function (e) {
     e.preventDefault()
 
-    if (coins < 20) {
-        alert("Not enough coins to make a call!")
-        return;
-    }
-
-
-    coins -= 20;
-    coinDisplay.textContent = coins;
-
 
     alert('Calling National Emergency Service 999')
 
@@ -112,16 +103,6 @@ const callBtn2 = document.getElementById("call-btn-2")
 callBtn2.addEventListener("click", function (e) {
     e.preventDefault()
 
-    if (coins < 20) {
-        alert("Not enough coins to make a call!");
-        return;
-    }
-
-
-    coins -= 20;
-    coinDisplay.textContent = coins;
-
-
     alert('Calling Police 999');
 
 
@@ -180,16 +161,6 @@ const callBtn3 = document.getElementById("call-btn-3")
 callBtn3.addEventListener("click", function (e) {
     e.preventDefault()
 
-    if (coins < 20) {
-        alert("Not enough coins to make a call!");
-        return;
-    }
-
-
-    coins -= 20;
-    coinDisplay.textContent = coins;
-
-
     alert('Calling Police 999');
 
 
@@ -245,15 +216,7 @@ const callBtn4 = document.getElementById("call-btn-4")
 
 callBtn4.addEventListener("click", function (e) {
     e.preventDefault()
-    if (coins < 20) {
-        alert("Not enough coins to make a call!");
-        return;
-    }
-
-
-    coins -= 20;
-    coinDisplay.textContent = coins;
-
+   
 
     alert('Calling Ambulance 199-999');
 
@@ -308,14 +271,6 @@ const callBtn5 = document.getElementById("call-btn-5")
 callBtn5.addEventListener("click", function (e) {
     e.preventDefault()
 
-    if (coins < 20) {
-        alert("Not enough coins to make a call!");
-        return;
-    }
-
-
-    coins -= 20;
-    coinDisplay.textContent = coins;
 
 
     alert('Calling Women and Child Support 109');
@@ -373,16 +328,6 @@ const callBtn6 = document.getElementById("call-btn-6")
 callBtn6.addEventListener("click", function (e) {
     e.preventDefault()
 
-    if (coins < 20) {
-        alert("Not enough coins to make a call!");
-        return;
-    }
-
-
-    coins -= 20;
-    coinDisplay.textContent = coins;
-
-
     alert('Calling Anti-Corruption Commission 106');
 
     const data = {
@@ -436,16 +381,7 @@ const callBtn7 = document.getElementById("call-btn-7")
 
 callBtn7.addEventListener("click", function (e) {
     e.preventDefault()
-    if (coins < 20) {
-        alert("Not enough coins to make a call!");
-        return;
-    }
-
-
-    coins -= 20;
-    coinDisplay.textContent = coins;
-
-
+    
     alert('Calling Electricity Outage 16216');
 
     const data = {
@@ -498,16 +434,7 @@ const callBtn8 = document.getElementById("call-btn-8")
 
 callBtn8.addEventListener("click", function (e) {
     e.preventDefault()
-    if (coins < 20) {
-        alert("Not enough coins to make a call!");
-        return;
-    }
-
-
-    coins -= 20;
-    coinDisplay.textContent = coins;
-
-
+    
     alert('Calling Brac 16445');
 
     const data = {
@@ -560,16 +487,7 @@ const callBtn9 = document.getElementById("call-btn-9")
 
 callBtn9.addEventListener("click", function (e) {
     e.preventDefault()
-    if (coins < 20) {
-        alert("Not enough coins to make a call!");
-        return;
-    }
-
-
-    coins -= 20;
-    coinDisplay.textContent = coins;
-
-
+    
     alert('Calling Bangladesh Railway 163');
 
     const data = {
